@@ -1,0 +1,89 @@
+
+header {
+  background-color: #464646;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+nav div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+nav div span {
+  width: 200px;
+  max-height: 70px;
+  color: white;
+  margin-left: 30px;
+  font-size: 1.5em;
+}
+
+main {
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-bottom: -200px;
+}
+
+main div:nth-child(2) div {
+  width: 300px;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+main div:nth-child(2) div:nth-child(2) {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+main div:nth-child(3) div {
+  width: 480px;
+  float: left;
+}
+
+main div:nth-child(3) div:last-child {
+  width: 450px;
+  padding-left: 30px;
+  font-size: 1.5em;
+  max-height: 400px;
+  overflow: scroll;
+  position: relative;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+button {
+  width: 50%;
+  background-color: #000000;
+  color: white;
+  font-size: 1em;
+  position: absolute;
+  /* bottom: 0; */
+  margin-top: 30px;
+}
+
+footer {
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* height: 200px;
+  background-color: #464646;
+  margin-top: 30px; */
+}
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, 
+img, footer, header, hgroup, 
+menu, nav {
+	vertical-align: middle;
+}
